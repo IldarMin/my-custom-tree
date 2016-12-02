@@ -64,6 +64,9 @@ gulp.task('watch', function() {
   gulp.watch([paths.css], ['css']);
   gulp.watch([paths.js], ['js']);
   gulp.watch([paths.templates], ['templates']);
+  gulp.watch([paths.testCss], ['testCss']);
+  gulp.watch([paths.testJs], ['testJs']);
+  gulp.watch([paths.templatesTest], ['templatesTest']);
 });
 
 gulp.task('default', ['build', 'watch', 'connect']);
