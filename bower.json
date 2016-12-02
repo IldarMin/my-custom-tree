@@ -1,0 +1,19 @@
+{
+  "name": "my-custom-tree",
+  "authors": [
+    "Ildar Mingazov <ildarcold@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
